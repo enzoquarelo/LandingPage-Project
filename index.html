@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lading Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="layout-grid header-flex">
+            <nav id="navmenu">
+                <a href="">Início</a>
+                <a href="">Sobre</a>
+                <a href="">Desafios</a>
+                <a href="">Endereço</a>
+            </nav>
+            <img id="mobile" src="assets/Icons/menu_FILL0_wght400_GRAD0_opsz48.svg" alt="" onclick="MostrarMenu()">
+        </div>
+    </header>
+
+    <main>
+        <section class="Banner">
+            <div class="layout-grid Titulo">
+                <h1>Desenvolvimento <br> de Sistemas 2023</h1>
+
+                <h3>Senai Informática</h3>
+
+                <span></span>
+                <img class="mouse-icon" src="images/mouse.svg" alt="">
+            </div>
+        </section>
+
+        <section class="Projetos">
+            <div class="layout-grid Sobre">
+                <h2 id="Titulo-Projeto">Sobre Projetos</h2>
+                <span></span>
+                <img class="imagem-projeto" src="images/imagem-seção-sobre.png" alt="">
+
+                <div class="Participantes">
+                    <h4>Participantes</h4>
+                    <h2>Mais de 80 alunos<br>organizados em 16 grupos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id eligendi veniam eum optio eveniet
+                        itaque
+                        at placeat, possimus, voluptatum veritatis culpa temporibus adipisci autem odio dicta quidem,
+                        amet
+                        tempora accusamus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam beatae
+                        voluptas
+                        omnis non, maiores doloremque accusamus similique eveniet iusto, exercitationem nemo a eius
+                        voluptatibus minima? Magni iste neque molestiae rem.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="infos">
+            <div class="layout-grid InfoGeral">
+                <div class="BoxInfos">
+                    <article class="info1">
+                        <h4>Local</h4>
+                        <h4 id="SubInfos">São Paulo</h4>
+                    </article>
+
+                    <article class="info2">
+                        <h4>Duração</h4>
+                        <h4 id="SubInfos">90 Dias</h4>
+                    </article>
+
+                    <article class="info3">
+                        <h4>Desafios</h4>
+                        <h4 id="SubInfos">+30 Desafios</h4>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="Endereço">
+            <div class="layout-grid Local">
+                <div class="box1">
+                    <h2>Endereço:</h2>
+                </div>
+                <span></span>
+                <img class="Map" src="images/mapa.png" alt="">
+                <div class="box2">
+                    <h4 id="BoxEndereço">Alameda Barão de Limeira, 539 <br> Santa Cecilia, São Paulo - SP <br> CEP:
+                        01202-001</h4>
+                </div>
+            </div>
+
+        </section>
+        </main>
+
+
+        <script>
+            function MostrarMenu() {
+                document.getElementById("navmenu").classList.toggle("MostrarMenu");
+               }
+        </script>
+    </body>
+    <footer>
+        <div class="layout-grid footer-flex">
+            <p>Copyright © 2020 - Escola Senai de Informática</p>
+        </div>
+    </footer>
+
+</html>
