@@ -5,19 +5,123 @@
 }
 
 @font-face {
-    font-family:Open Sans;
+    font-family: Courier New;
+    src: url(../assets/Fonts/Courier_Prime/CourierPrime-Bold.ttf);
+}
+
+@font-face {
+    font-family: Open Sans;
     src: url(../assets/Fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
 /* Reset de Propriedade */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.layout-grid{
+.layout-grid {
     width: 100%;
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 60px;
+
+    background-color: #F9003D;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-section {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logoSenai {
+    width: 90px;
+    height: 25px;
+}
+
+.header-nav {
+    width: 500px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav a {
+    font-family: Bebas Neue;
+    font-size: 18px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.header-nav a:hover{
+    color: #FFAF00;
+}
+
+/* Section 1 - Home */
+
+.home-section {
+    width: 100%;
+    height: 740px;
+
+    background-image: url(../images/background-Home.png);
+}
+
+#tittleHome{
+    font-family: Bebas Neue;
+    font-size: 96px;
+    color: white;
+}
+
+#hr-HomeTittle{
+width: 545px;
+
+border-color: #FFAF00;
+}
+
+#subTittle-Home{
+    font-family: Courier New;
+    font-size: 53px;
+
+    text-transform: uppercase;
+
+    color: #F9003D;
+
+    padding-top: 12px;
+}
+
+#mouse-icon{
+    padding-top: 12px;
+    padding-right: 40px;
+
+    width: 80px;
+    height: 80px;
+}
+
+.home-itens{
+    width: 600px;
+    height: 420px;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -300px;
+    top: calc(50% - 210px);
 }
