@@ -10,6 +10,11 @@
 }
 
 @font-face {
+    font-family: Courier New Regular;
+    src: url(../assets/Fonts/Courier_Prime/CourierPrime-Regular.ttf);
+}
+
+@font-face {
     font-family: Open Sans;
     src: url(../assets/Fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
@@ -71,7 +76,7 @@ header {
     color: white;
 }
 
-.header-nav a:hover{
+.header-nav a:hover {
     color: #FFAF00;
 }
 
@@ -84,19 +89,19 @@ header {
     background-image: url(../images/background-Home.png);
 }
 
-#tittleHome{
+#tittleHome {
     font-family: Bebas Neue;
     font-size: 96px;
     color: white;
 }
 
-#hr-HomeTittle{
-width: 545px;
+#hr-HomeTittle {
+    width: 545px;
 
-border-color: #FFAF00;
+    border-color: #FFAF00;
 }
 
-#subTittle-Home{
+#subTittle-Home {
     font-family: Courier New;
     font-size: 53px;
 
@@ -107,7 +112,7 @@ border-color: #FFAF00;
     padding-top: 12px;
 }
 
-#mouse-icon{
+#mouse-icon {
     padding-top: 12px;
     padding-right: 40px;
 
@@ -115,7 +120,7 @@ border-color: #FFAF00;
     height: 80px;
 }
 
-.home-itens{
+.home-itens {
     width: 600px;
     height: 420px;
 
@@ -124,4 +129,203 @@ border-color: #FFAF00;
     position: relative;
     left: -300px;
     top: calc(50% - 210px);
+}
+
+/* Section 2 - About Projects */
+
+.about-section {
+    width: 100%;
+    height: 740px;
+
+    background-color: #080324;
+}
+
+#tittleAbout {
+    font-family: Bebas Neue;
+    font-size: 64px;
+
+    color: #F9003D;
+}
+
+#classImage {
+    width: 491px;
+    height: 476px;
+}
+
+#subTittle-Text {
+    font-family: Courier New;
+    font-size: 24px;
+
+    color: white;
+
+    text-transform: uppercase;
+}
+
+#Tittle-Text {
+    font-family: Bebas Neue;
+    font-size: 64px;
+
+    color: #FFAF00;
+
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Open Sans;
+    font-size: 18px;
+
+    color: white;
+
+    text-align: justify;
+}
+
+.about-itens {
+    width: 100%;
+    height: 615px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    position: relative;
+    top: calc(50% - 307.5px);
+}
+
+.article-about2 {
+    width: 650px;
+    height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    position: relative;
+}
+
+.article-about1 {
+    height: 615px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Section 3 - Informations */
+
+.sections-Informations {
+    width: 100%;
+    height: 200px;
+
+    background-image: url(../images/background-About.png);
+
+    display: flex;
+    align-items: center;
+}
+
+#tittle-box {
+    font-family: Courier New Regular;
+    font-size: 24px;
+
+    color: white;
+
+    text-transform: uppercase;
+}
+
+#box {
+    font-family: Courier New Regular;
+    font-size: 28px;
+
+    color: #A259F7;
+
+    text-transform: uppercase;
+
+    width: 289px;
+    height: 100px;
+
+    border: #A259F7 1px solid;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3-itens {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Section 4 - Address */
+
+.section_adress {
+    width: 100%;
+    height: 516px;
+
+    background-image: url(../images/background-Location.png);
+}
+
+#tittleAddress {
+    font-family: Bebas Neue;
+    font-size: 64px;
+
+    color: #FFAF00;
+}
+
+#pAddress {
+    font-family: Courier New Regular;
+    font-size: 24px;
+
+    display: flex;
+    position: relative;
+    left: 50px;
+    top: 70px;
+
+    color: #A259F7;
+}
+
+.box_iframe {
+    display: flex;
+    position: relative;
+
+    left: 580px;
+    bottom: 130px;
+}
+
+#box-iframe {
+    width: 899px;
+    height: 204px;
+
+    background-color: #010010;
+    border: 2px solid #A259F7;
+
+    display: flex;
+    position: absolute;
+}
+
+.address-itens {
+    height: 290px;
+    width: 900px;
+
+    position: relative;
+    top: calc(50% - 145px);
+}
+
+/* Footer */
+
+footer{
+    background-color: #F9003D;
+
+    width: 100%;
+    height: 82px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerP{
+    font-family: Open Sans;
+    font-size: 18px;
 }
